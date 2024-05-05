@@ -10,6 +10,10 @@ public class Format {
 	@Test(groups=("testGroup1"))
 	public void Demo(){
 		System.out.println("TestNG Tutorial");
+		System.out.println("Git6");
+		System.out.println("Git7");
+		System.out.println("Git8");
+		System.out.println("Git9");
 	}
 	
 	@Test(dataProvider = "getData")
