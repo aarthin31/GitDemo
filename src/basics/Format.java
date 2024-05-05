@@ -22,6 +22,9 @@ public class Format {
 		System.out.println("Branch 1");
 		System.out.println("Branch 2");
 		System.out.println("Branch 3");
+		System.out.println("Branch 4");
+		System.out.println("Branch 5");
+		System.out.println("Branch 6");
 	}
 	
 	@Test(dataProvider = "getData")
