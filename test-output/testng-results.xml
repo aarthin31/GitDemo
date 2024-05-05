@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="12" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-07T20:02:50 IST" name="Suite" finished-at="2023-12-07T20:02:50 IST" duration-ms="333">
+    <groups>
+      <group name="testGroup1">
+        <method signature="Demo3.townDepartmentUser()[pri:0, instance:basics.Demo3@7133da86]" name="townDepartmentUser" class="basics.Demo3"/>
+        <method signature="Format.Demo()[pri:0, instance:basics.Format@6d3a388c]" name="Demo" class="basics.Format"/>
+        <method signature="Demo2.ruralDepartmentUser(java.lang.String)[pri:0, instance:basics.Demo2@21282ed8]" name="ruralDepartmentUser" class="basics.Demo2"/>
+      </group> <!-- testGroup1 -->
+    </groups>
+    <test started-at="2023-12-07T20:02:50 IST" name="Test" finished-at="2023-12-07T20:02:50 IST" duration-ms="171">
+      <class name="basics.Demo3">
+        <test-method is-config="true" signature="prerequisite()[pri:0, instance:basics.Demo3@7133da86]" started-at="2023-12-07T20:02:50 IST" name="prerequisite" finished-at="2023-12-07T20:02:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method signature="townCitizenLogin()[pri:0, instance:basics.Demo3@7133da86]" started-at="2023-12-07T20:02:50 IST" name="townCitizenLogin" finished-at="2023-12-07T20:02:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- townCitizenLogin -->
+        <test-method signature="townDepartmentUser()[pri:0, instance:basics.Demo3@7133da86]" started-at="2023-12-07T20:02:50 IST" name="townDepartmentUser" finished-at="2023-12-07T20:02:50 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- townDepartmentUser -->
+        <test-method is-config="true" signature="lastExecution()[pri:0, instance:basics.Demo3@7133da86]" started-at="2023-12-07T20:02:50 IST" name="lastExecution" finished-at="2023-12-07T20:02:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastExecution -->
+      </class> <!-- basics.Demo3 -->
+      <class name="basics.Demo1">
+        <test-method is-config="true" signature="bfClass()[pri:0, instance:basics.Demo1@4d0f2471]" started-at="2023-12-07T20:02:50 IST" name="bfClass" finished-at="2023-12-07T20:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfClass -->
+        <test-method signature="test1()[pri:0, instance:basics.Demo1@4d0f2471]" started-at="2023-12-07T20:02:50 IST" name="test1" finished-at="2023-12-07T20:02:50 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2(java.lang.String,java.lang.String)[pri:0, instance:basics.Demo1@4d0f2471]" started-at="2023-12-07T20:02:50 IST" name="test2" finished-at="2023-12-07T20:02:50 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aarthin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[p@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afClass()[pri:0, instance:basics.Demo1@4d0f2471]" started-at="2023-12-07T20:02:50 IST" name="afClass" finished-at="2023-12-07T20:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afClass -->
+      </class> <!-- basics.Demo1 -->
+      <class name="basics.Format">
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="bfMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="Demo()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="Demo" finished-at="2023-12-07T20:02:50 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="afMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method signature="dpanotation(java.lang.String,java.lang.String)[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="dpanotation" data-provider="getData" finished-at="2023-12-07T20:02:50 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[first_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dpanotation -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="bfMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="afMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="bfMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="dpanotation(java.lang.String,java.lang.String)[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="dpanotation" data-provider="getData" finished-at="2023-12-07T20:02:50 IST" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[second_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dpanotation -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="afMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+        <test-method is-config="true" signature="bfMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="bfMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfMethod -->
+        <test-method signature="dpanotation(java.lang.String,java.lang.String)[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="dpanotation" data-provider="getData" finished-at="2023-12-07T20:02:50 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[third_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dpanotation -->
+        <test-method is-config="true" signature="afMethod()[pri:0, instance:basics.Format@6d3a388c]" started-at="2023-12-07T20:02:50 IST" name="afMethod" finished-at="2023-12-07T20:02:50 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afMethod -->
+      </class> <!-- basics.Format -->
+    </test> <!-- Test -->
+    <test started-at="2023-12-07T20:02:50 IST" name="Rural" finished-at="2023-12-07T20:02:50 IST" duration-ms="25">
+      <class name="basics.Demo2">
+        <test-method is-config="true" signature="bfSuite()[pri:0, instance:basics.Demo2@21282ed8]" started-at="2023-12-07T20:02:50 IST" name="bfSuite" finished-at="2023-12-07T20:02:50 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfSuite -->
+        <test-method signature="ruralDepartmentUser(java.lang.String)[pri:0, instance:basics.Demo2@21282ed8]" started-at="2023-12-07T20:02:50 IST" name="ruralDepartmentUser" finished-at="2023-12-07T20:02:50 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testURL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruralDepartmentUser -->
+        <test-method signature="ruralLocalBody()[pri:0, instance:basics.Demo2@21282ed8]" started-at="2023-12-07T20:02:50 IST" name="ruralLocalBody" finished-at="2023-12-07T20:02:50 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ruralLocalBody -->
+        <test-method is-config="true" signature="afSuite()[pri:0, instance:basics.Demo2@21282ed8]" started-at="2023-12-07T20:02:50 IST" name="afSuite" finished-at="2023-12-07T20:02:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afSuite -->
+      </class> <!-- basics.Demo2 -->
+    </test> <!-- Rural -->
+  </suite> <!-- Suite -->
+</testng-results>
