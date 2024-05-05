@@ -19,6 +19,9 @@ public class Format {
 		System.out.println("Git3");
 		System.out.println("Git4");
 		System.out.println("Git5");
+		System.out.println("Branch 1");
+		System.out.println("Branch 2");
+		System.out.println("Branch 3");
 	}
 	
 	@Test(dataProvider = "getData")
